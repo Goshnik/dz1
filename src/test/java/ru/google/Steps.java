@@ -25,6 +25,7 @@ public class Steps {
     @Step("Шаг 2. Проверка количества результатов больше 3")
     public static void checkResultAmount(WebDriver chromeDriver, PageObjectGoogleSearch googlePO){
         List<WebElement> listOfWebElement = chromeDriver.findElements(By.xpath(googlePO.getSelectorSearchItem()));
+        System.out.println("yeeeeeeeeee");
         if (listOfWebElement.size() > 3){
             Assertions.assertTrue(true);
         }
@@ -37,6 +38,7 @@ public class Steps {
     @Step("Шаг 2. Проверка наличия имени: {name}")
     public static void checkContainsName(WebDriver chromeDriver, String name){
         List<WebElement> searchResultList = chromeDriver.findElements(By.xpath(selectorNamePage));
+        System.out.println("proverka");
         if (searchResultList.stream().anyMatch(x->x.getText().contains(name))){
             Assertions.assertFalse(true);
         }

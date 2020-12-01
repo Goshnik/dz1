@@ -12,6 +12,7 @@ public class Tests extends WebDriverSettings{
     public void testSearchQuery(){
         PageObjectGoogleSearch googlePO = Steps.doGoogleSearch(chromeDriver, "Гладиолус");
         Steps.checkResultAmount(chromeDriver, googlePO);
+
     }
 
     @Test
@@ -30,7 +31,7 @@ public class Tests extends WebDriverSettings{
 
     @Test
     public void  jenkinsTest(){
-        chromeDriver.get("https://www.jenkins.io");
+        chromeDriver.get("https://www.youtube.com");
         System.out.println(chromeDriver.getCurrentUrl());
     }
 }
