@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Selenide.Tests.Tests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.183 s - in Selenide.Tests.Tests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.791 s - in Selenide.Tests.Tests
