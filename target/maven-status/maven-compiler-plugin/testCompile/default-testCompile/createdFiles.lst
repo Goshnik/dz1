@@ -1,0 +1,8 @@
+Selenide\PageObjects\GoogleMainPage.class
+Selenide\PageObjects\GoogleSearchResult.class
+ru\google\Tests.class
+ru\google\WebDriverSettings.class
+ru\google\CustomUtils.class
+ru\google\PageObjectGoogleSearch.class
+ru\google\Steps.class
+Selenide\Tests\Tests.class

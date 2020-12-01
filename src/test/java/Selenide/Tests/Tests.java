@@ -46,7 +46,7 @@ public class Tests {
         GoogleMainPage google = open("https://www.google.ru/",GoogleMainPage.class);
         GoogleSearchResult resultingSearch = google.search("Гладиолус");
         ElementsCollection searchResults = $$(By.xpath(resultingSearch.getSelectorSearchItem()));
-        Assertions.assertTrue(searchResults.findBy(text("Гладиолус — Википедия")).exists(), "Искомый результат не найден");
+        Assertions.assertFalse(searchResults.findBy(text("Гладиолус — Википедия")).exists(), "Искомый результат не найден");
     }
 
 }

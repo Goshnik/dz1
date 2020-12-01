@@ -10,6 +10,9 @@
 
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
         <junit.jupiter.version>5.7.0-M1</junit.jupiter.version>
         <qameta.allure>2.13.5</qameta.allure>
         <seleniumhq.selenium>3.141.59</seleniumhq.selenium>
