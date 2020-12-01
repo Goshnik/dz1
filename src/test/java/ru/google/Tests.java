@@ -22,16 +22,4 @@ public class Tests extends WebDriverSettings{
         Steps.checkContainsName(chromeDriver, "Гладиолус — Википедия");
     }
 
-    @Test
-    public void dasdsada(){
-        chromeDriver.get("https://selenium.dev");
-        System.out.println(chromeDriver.getCurrentUrl());
-        
-    }
-
-    @Test
-    public void  jenkinsTest(){
-        chromeDriver.get("https://www.youtube.com");
-        System.out.println(chromeDriver.getCurrentUrl());
-    }
 }
