@@ -28,9 +28,9 @@ public class Tests extends WebDriverSettings{
         
     }
 
-    @Test
-    public void  jenkinsTest(){
-        chromeDriver.get("https://www.jenkins.io");
-        System.out.println(chromeDriver.getCurrentUrl());
-    }
+//    @Test
+//    public void  jenkinsTest(){
+//        chromeDriver.get("https://www.jenkins.io");
+//        System.out.println(chromeDriver.getCurrentUrl());
+//    }
 }
